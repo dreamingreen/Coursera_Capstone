@@ -1,0 +1,20 @@
+When you want to open a new restaurant, you will have to think about why people would come to your place specifically and not another one, 
+since restaurants are already very common big cities. In addition to making very good food, to have success, you have to take your time to think about the location in 
+which you will rent or buy for it to be as strategic as possible. 
+Do you like competition with other restaurants ? 
+Do you want it to be from walking distance or is it ok for you to take the car ?
+Which places would you like to be close to your restaurant ?
+
+Let's imagine a case where our italian friend Antonio, who lives in Paris for his studies but is a little bit short on money, wants to open his pizza takeout business. 
+He plans on making a homemade italian-style kind of pizzas, with whole ingredients.
+He has some requirements:
+- First, he wants it to be close to home and be able to walk to the location in 20min.
+- Second, the business can be close to other pizza places. He doesn't mind the competition with other pizza restaurants since he's confident his homemade pizzas are the best.
+- Third, he wants it to be close to a supermarket or a farmer's market so that he can shop for ingredients whenever he's missing something.
+- Bonus if we can get it near a touristic place like "Arc de Triomphe" or "Les Champs Elysées"
+
+What should be done:
+Collect his home coordinates (longitude, latitude) and using Foursquare API, research for the pizza places that exist within 20min walking distance (look for the corresponding radius).
+We would only like to be near "industrial" places such as "Pizza Hut". Other traditional pizza restaurants are a risk for us in terms of competition.
+After selecting one or multiple visual radius of places where we can put our pizza place, we will search which one of the selected places has the closest supermarket, 
+which will help us make our choice.
