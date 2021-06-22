@@ -14,7 +14,7 @@ He has some requirements:
 - Bonus if we can get it near a touristic place like "Arc de Triomphe" or "Les Champs Elysées"
 
 What should be done:
-Collect his home coordinates (longitude, latitude) and using Foursquare API, research for the pizza places that exist within 20min walking distance (look for the corresponding radius).
+Collect his home coordinates (longitude, latitude) and using Foursquare API, research the pizza places that exist within 20min walking distance (look for the corresponding radius).
 We would only like to be near "industrial" places such as "Pizza Hut". Other traditional pizza restaurants are a risk for us in terms of competition.
 After selecting one or multiple visual radius of places where we can put our pizza place, we will search which one of the selected places has the closest supermarket, 
 which will help us make our choice.
